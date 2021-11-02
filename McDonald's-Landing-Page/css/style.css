@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+@import url('http://fonts.cdnfonts.com/css/mclawsuit');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    height: 100%;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: rgb(255, 218, 143);
+    background: radial-gradient(circle, rgba(255, 218, 143, 1) 0%, rgba(255, 194, 61, 1) 50%);
+}
+
+header {
+    height: 200px;
+    position: relative;
+}
+
+.logo {
+    width: 50%;
+    padding-left: 8rem;
+    position: absolute;
+}
+
+.logo img {
+    width: 13%;
+    height: 40%;
+}
+
+.menu {
+    position: relative;
+    padding-top: 2rem;
+    width: 100%;
+    text-align: right;
+    padding-right: 4rem;
+}
+
+.menu a {
+    color: #b65d24;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+section.sobre {
+    height: calc(100% - 200 px);
+    position: relative;
+}
+
+.extras {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.extras h1 {
+    font-family: 'McLawsuit', sans-serif;
+    font-size: 43rem;
+    position: absolute;
+    top: -9rem;
+    right: 9rem;
+    color: #feb845;
+}
+
+.extras img {
+    position: relative;
+    padding-top: 3rem;
+    padding-right: 15rem;
+    padding-bottom: 10rem;
+    padding-left: 3rem;
+    margin: -7rem;
+}
+
+.texto-sobre {
+    color: #74490f;
+    padding-top: 3rem;
+    padding-left: 8rem;
+    position: relative;
+}
+
+.texto-sobre h1 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+.texto-sobre p {
+    position: absolute;
+    top: 13.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
