@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
-@import url('http://fonts.cdnfonts.com/css/mclawsuit');
 
 * {
     margin: 0;
@@ -23,8 +22,7 @@ html, body {
     height: 100%;
     overflow-y: hidden;
     overflow-x: hidden;
-    background: rgb(255, 218, 143);
-    background: radial-gradient(circle, rgba(255, 218, 143, 1) 0%, rgba(255, 194, 61, 1) 50%);
+    background-color: rgba(255, 194, 61, 1);
 }
 
 header {
@@ -55,6 +53,14 @@ header {
     color: #b65d24;
     font-weight: bold;
     margin-right: 2rem;
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    padding-right: 5rem;
 }
 
 section.sobre {
